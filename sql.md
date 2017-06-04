@@ -50,7 +50,7 @@ limit 1;
 - 根据WHERE字句中指定的搜索条件进行过滤
 - 条件操作符
   - != 使用在数字比较的时候
-  - 字符串用单引号
+  - 字符串用单引号
   - between num1 and num2
   - 空值检查：prod_price IS NULL
 
@@ -73,5 +73,3 @@ limit 1;
 ```sql
 WHERE ven_id IN (1002, 1003)
 ```
-
-
